@@ -1,14 +1,14 @@
 **Census Data Processing and Analysis**
 
-Overview
+**Overview**
 
 This project aims to clean, process, and analyze census data sourced from a given dataset. The tasks include renaming columns for uniformity, standardizing state/UT names, handling new state/UT formations, dealing with missing data, storing data in a MongoDB database, connecting to a relational database, and running queries to extract insights from the data.
 
-Dataset
+**Dataset**
 
 The dataset can be accessed from the following URL: Dataset
 
-Problem Statement
+**Problem Statement**
 
 The task involves several data preprocessing and analysis steps, including:
 
@@ -26,7 +26,7 @@ Establishing a database connection and uploading data.
 
 Running queries on the database to extract insights.
 
-Tasks
+**Tasks**
 
 Task 1: Rename Column Names
 Columns are renamed to ensure uniformity and consistency across datasets.
@@ -49,8 +49,10 @@ Data is fetched from MongoDB and uploaded to a relational database using Python 
 Task 7: Querying and Analysis
 Various queries are run on the database to extract insights, including population statistics, literacy rates, household amenities, transportation modes, household sizes, income distribution, poverty rates, and more.
 
-Submission
+**Submission**
 
 Python file containing the complete code for the project, organized into sections for data Pipeline and Analysis.
+
 GitHub repository with a proper README file.
+
 Presentation covering Problem Statement, Tools Used, Approaches, and Insights Found.
