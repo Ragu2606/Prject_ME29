@@ -1,4 +1,4 @@
-**Census Data Processing and Analysis**
+**Census Data Standardization and Analysis Pipeline**
 
 **Overview**
 
