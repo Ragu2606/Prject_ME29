@@ -495,22 +495,17 @@ ORDER BY
 """
     }
 
-    # Dropdown list to select query
     query_name = st.selectbox("Select query:", list(queries.keys()), key="select_query")
 
-    # Display selected query
     query = queries[query_name]
     st.text_area("SQL query:", query, key="sql_query")
 
-    # Run query when button is clicked
     if st.button("Run Query", key="run_query_button"):
         try:
             columns, rows = run_query(query)
             if rows:
-                # Display column names
                 st.write("Column Names:")
                 st.write(columns)
-                # Display query results
                 st.write("Query Results:")
                 for row in rows:
                     row_dict = {columns[i]: row[i] for i in range(len(columns))}
