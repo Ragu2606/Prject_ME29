@@ -53,6 +53,3 @@ Various queries are run on the database to extract insights, including populatio
 
 Python file containing the complete code for the project, organized into sections for data Pipeline and Analysis.
 
-GitHub repository with a proper README file.
-
-Presentation covering Problem Statement, Tools Used, Approaches, and Insights Found.
